@@ -2,7 +2,6 @@ package com.sparta.springauth.controller;
 
 import com.sparta.springauth.entity.User;
 import com.sparta.springauth.security.UserDetailsImpl;
-import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
